@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Quete Simple UI</string>
+    <string name="caseNom">Nom</string>
+    <string name="casePrenom">Prénom</string>
+    <string name="valider">Valider</string>
+    <string name="welcome">Welcome to the Wild Code School!</string>
+    <string name="check">Oui je souhaite devenir un wilder</string>
+</resources>
