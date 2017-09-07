@@ -47,9 +47,9 @@
         android:enabled="false"
         android:hint="@string/casePrenom"
         android:inputType="textPersonName"
-        android:text="@string/casePrenom"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+        app:layout_constraintTop_toBottomOf="@+id/checkBox"
+        tools:text="@string/casePrenom" />
 
     <EditText
         android:id="@+id/editText2"
@@ -57,14 +57,14 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="0dp"
         android:ems="10"
         android:enabled="false"
         android:hint="@string/caseNom"
         android:inputType="textPersonName"
-        android:text="@string/caseNom"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        tools:text="@string/caseNom" />
 
     <Button
         android:id="@+id/button"
